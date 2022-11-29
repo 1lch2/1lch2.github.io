@@ -1,0 +1,16 @@
+{
+  "name": "frontend_notes",
+  "version": "1.0.0",
+  "description": "Frontend notes site generated from my JavaScript_Exercise repo.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "1lch2",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  }
+}
