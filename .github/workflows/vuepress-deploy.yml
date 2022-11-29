@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: 1lch2/Frontend_Notes
         TARGET_BRANCH: master
-        BUILD_SCRIPT: npm run docs:build
+        BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && cd -
         BUILD_DIR: docs/.vuepress/dist
