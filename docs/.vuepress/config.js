@@ -10,6 +10,7 @@ const autobar_options = {
 // TODO: default route
 
 module.exports = {
+  base: "/Frontend_Notes/",
   title: "Frontend Notes",
   description: "Just a personal frontend learning notes",
   themeConfig: {
